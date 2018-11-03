@@ -1,0 +1,18 @@
+server:
+  port: 8081
+  
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/swathicheela/spring-cloudconfig-example
+          username: swathicheela2012@gmail.com
+          password: Apr@2017
+          search-paths:
+          - 'station1*'
+          
+  
+
+  
+    
